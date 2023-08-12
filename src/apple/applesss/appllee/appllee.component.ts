@@ -9,7 +9,7 @@ import { AppleProduct } from '../../apple-product';
   styleUrls: ['./appllee.component.css']
 })
 export class ApplleeComponent implements OnInit {
-@Input() appleProduct?:AppleProduct;
+@Input() appleProduct!: AppleProduct;
   constructor() { }
 
   ngOnInit() {

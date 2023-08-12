@@ -14,7 +14,7 @@ import { CommonModule } from '@angular/common';
 export class APPLESSSComponent implements OnInit {
 
 
-  applesss: AppleProduct [] = APPLES;
+  applesss: AppleProduct [] = [];
 
   
   constructor() { }
