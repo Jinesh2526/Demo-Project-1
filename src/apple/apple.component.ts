@@ -13,7 +13,9 @@ import { APPLESSSComponent } from './applesss/applesss.component';
 })
 export class AppleComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+    
+  }
 
   ngOnInit() {
   }
