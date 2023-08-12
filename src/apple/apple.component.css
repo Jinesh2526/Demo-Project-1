@@ -1,0 +1,25 @@
+.bigbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  height: 90vh;
+  width: 95vw;
+  padding: 1rem;
+  border: 1px solid grey;
+}
+.applesss{
+  /* justify-content: center;
+  align-items: center; */
+  height: 30vh;
+  width: 100%;
+  background-color: red;
+}
+.apples-details{
+  /* justify-content: center;
+  align-items: center; */
+  height: 50vh;
+  width: 60%;
+  background-color: yellow;
+}
