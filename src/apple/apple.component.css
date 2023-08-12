@@ -14,12 +14,15 @@
   align-items: center; */
   height: 30vh;
   width: 100%;
-  background-color: red;
+  /* background-color: red; */
+  border: 1px solid black;
 }
 .apples-details{
   /* justify-content: center;
   align-items: center; */
   height: 50vh;
   width: 60%;
-  background-color: yellow;
+  /* background-color: yellow; */
+  /* border: 1px solid black; */
+  box-shadow: 2px 3px ;
 }

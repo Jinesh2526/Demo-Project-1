@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { APPLES } from '../mock-apples';
+import {AppleProduct} from '../apple-product'
 
 @Component({
   standalone:true,
@@ -8,8 +10,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class APPLESSSComponent implements OnInit {
 
-  constructor() { }
 
+  applesss: AppleProduct [] = APPLES;
+
+  
+  constructor() { }
+// console.log(this.applesss)
   ngOnInit() {
   }
 
